@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Tambahkan library Swiper.js -->
+
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/asset/css/product.css">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- JS Link -->
+    <script src="/asset/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Web Pts</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffffff;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/asset/img/Premium_Vector___Letter_l_and_a_logo_vector-removebg-preview.png" alt="A Market">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bx bx-menu" style=></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="/html/product.html">Product</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="/html/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="follow">
+                    <p>Follow</p>
+                    <a href="https://github.com/Adhim-IT"><i class='bx bxl-github mx-'></i></a>
+                    <a href="https://www.instagram.com/alamsyahadhim/"><i class='bx bxl-instagram-alt mx-'></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- search -->
+    <div class="search">
+        <h1 class="heading">Search</h1>
+        <form action="" method="get">
+            <div class="d-flex justify-content-center">
+                <input type="text" name="search" placeholder="search" id="search-box">
+                <input type="submit" value="search" class="btn btn-primary btn-lg">
+            </div>
+        </form>
+    </div>
+
+    <!-- product -->
+    <div class="all-products">
+        <div class="product">
+            <img src="/asset/img/apple-watch-pcq.jpg">
+            <div class="product-info">
+                <h4 class="product-title">Apple Watch </h4>
+                <p class="product-price">5.499.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/ACER Nitro 5 AN515 58 7583 i7-12700H, 32GB, 2 TB, Windows 11 Home, 15_6_ Laptop.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Acer Nitro 5 Core I5</h4>
+                <p class="product-price">15.000.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/adidas Forum Low sneakers - White.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Adidas Forum</h4>
+                <p class="product-price">1.700.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/adidas Jackets_ Zip Up, Workout & Athletic _ adidas US.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Adidas Jacket</h4>
+                <p class="product-price">1.500.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/adidas Samba OG Shoes - Black _ Unisex Lifestyle _ adidas US.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Adidas Samba OG
+                </h4>
+                <p class="product-price">1.300.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/adidas Stan Smith - M20324 - Sneakersnstuff (SNS) _ Sneakersnstuff (SNS).jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Adidas Stan Smith
+                </h4>
+                <p class="product-price">1.200.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/Harajuku NASA Windbreaker Streetwear Jacket - M _ Black.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Harajaku Nasa
+                </h4>
+                <p class="product-price">425.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/Jordan Air Jordan 1 High OG.png">
+            <div class="product-info">
+                <h4 class="product-title">Jordan Air 1
+                </h4>
+                <p class="product-price">2.000.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img
+                src="/asset/img/Laptop Asus R564JA-UH31TDX i3-1005G1_15_6_ FHD TouchScreen_8GB_SSD 512GB_BT_FPR_Win 10 Grey (REPACK) 2Y - R564JA-UH31TDXBB_8GB_512SSD Nowy _ REPACK.jpeg">
+            <div class="product-info">
+                <h4 class="product-title"> Asus VivoBook
+                </h4>
+                <p class="product-price">8.800.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img
+                src="/asset/img/Laptop ASUS VivoBook 15X X1503ZA-L1236W 15_6_ OLED i5-12500H 16GB RAM 512GB SSD Windows 11 Home - niskie ceny i opinie w Media Expert.png">
+            <div class="product-info">
+                <h4 class="product-title">ASUS VivoBook X1503
+                </h4>
+                <p class="product-price">9.000.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/MacBook Pro 16 (2021, M1) skins - Custom _ Bottom.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">MacBook Pro M1
+                </h4>
+                <p class="product-price">32.000.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/Nike Air Force 1 Low Tuxedo Sneakers_Shoes AQ4134-100 (Size_ US 10).jpeg">
+            <div class="product-info">
+                <h4 class="product-title"> NIke Air Force Low
+                </h4>
+                <p class="product-price">1.549.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/Nike Air Zoom Pegasus 38 Men's Running Shoes - 10.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Nike Air Zoom
+                </h4>
+                <p class="product-price">21.000.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/Samsung Galaxy Z Fold 3 5G.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Galaxy Z Fold 5
+                </h4>
+                <p class="product-price">18.500.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/Xiaomi 12 5G Bleu 256Go avec abonnement Forfait 2h 20Go Xiaomi.png">
+            <div class="product-info">
+                <h4 class="product-title">Xiaomi 12 5G
+                </h4>
+                <p class="product-price">6.449.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/WhatsApp Image 2023-09-06 at 05.41.10.jpg">
+            <div class="product-info">
+                <h4 class="product-title">Xiamoi 10T Pro
+                </h4>
+                <p class="product-price">7.349.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/Xiaomi Mi 11 Lite 5G NE - Unlocked Smartphone 5G.jpeg">
+            <div class="product-info">
+                <h4 class="product-title">Xiaomi Mi 11 Lite
+                </h4>
+                <p class="product-price">3.899.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img
+                src="/asset/img/MacBook_Pro_16__2023__M2__skins_-_Custom___Top_+_Bottom_+_Keyboard_Surround_+_Trackpad-removebg-preview.png">
+            <div class="product-info">
+                <h4 class="product-title">MacBook Pro M2
+                </h4>
+                <p class="product-price">34.000.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/iPhone-14.jpg">
+            <div class="product-info">
+                <h4 class="product-title">iPhone 14 Pro Max
+                </h4>
+                <p class="product-price">21.000.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/asset/img/Galaxy S23 Ultra Lavande 512Go avec abonnement Forfait 2h 100Mo Samsung.png">
+            <div class="product-info">
+                <h4 class="product-title">Galaxy S23 Ultra</h4>
+                <p class="product-price">24.000.000 IDR</p>
+                <a class="product-btn" href="#">Buy Now</a>
+            </div>
+        </div>
+        <!-- end search -->
+        <!-- Footer Start -->
+        <footer class="bg-white text-white pt-5 pb-4">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mt-3">
+                        <h5 class="footer-text text-uppercase mb-2 fw-bold ">A Market</h5>
+                        <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum et officia
+                            architecto tempora
+                            suscipit
+                            dolores
+                            tempore voluptates maxime odio similique cumque nihil dolorum, sit expedita.</p>
+                        <p style="color: black;" class="footer_copyright">&#169; Created by <a href="#"
+                                style="text-decoration: none; color:orange;">A Market</a>
+                            <script>document.write(new Date().getFullYear());</script>. All right reserved
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="footer-text text-uppercase mb-2 fw-bold ">Nav Links</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="footer-line" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="footer-line" href="">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="footer-line" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="footer-line" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="footer-text text-uppercase mb-2 fw-bold ">Social Media</h5>
+                        <ul class="nav flex-column">
+                            <li class="footer-line nav-item">
+                                <a href="https://github.com/Adhim-IT" class="link-sosmed text-black-50"><i
+                                        class='bx bxl-github mx-2 text-black-50'></i><b>Github</b></a>
+                            </li>
+                            <li class="footer-line nav-item">
+                                <a href="https://www.instagram.com/alamsyahadhim/" class="link-sosmed text-black-50"><i
+                                        class='bx bxl-instagram mx-2 text-black-50'></i><b>Instagram</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="footer-text text-uppercase mb-2 fw-bold ">Location</h5>
+                        <ul class="nav flex-column">
+                            <li class="footer-location nav-item">
+                                <h5 style="color: black;" class="" href="#">Email:</h5>
+                                <p style="color: black;">alamsyahnugraha90@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+</body>
+
+</html>

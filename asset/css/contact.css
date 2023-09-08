@@ -1,0 +1,168 @@
+:root {
+  --text-color1: blue;
+}
+
+:root {
+  --text-color: orange;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+/* Navbar Style */
+
+.navbar {
+  z-index: 3;
+  backdrop-filter: blur(0);
+  transition: backdrop-filter 0.5s ease;
+}
+.navbar-brand img {
+  margin: auto;
+  max-width: 80px; /* Sesuaikan dengan lebar maksimum yang Anda inginkan */
+  height: auto; /* Untuk menjaga proporsi aslinya */
+}
+
+* {
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--text-color1);
+}
+
+.navbar-brand:hover {
+  color: var(--text-color);
+}
+
+.nav-link {
+  font-size: 16px;
+  color: var(--text-color1);
+}
+.nav-link.active::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--text-color);
+  transition: width 0.3s ease;
+}
+
+.nav-link.active:hover::after,
+.nav-link.active:focus::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+.navbar-nav a:hover {
+  color: var(--text-color);
+}
+
+.follow {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.follow p,
+.follow a:first-child {
+  display: inline-block;
+  margin-left: 12px;
+  color: var(--text-color1);
+}
+
+.follow a {
+  color: var(--text-color1);
+  margin-left: 12px;
+  margin-right: 3px;
+  transition: all 0.5s ease;
+}
+
+.follow a:hover {
+  color: var(--text-color);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* end navbar *
+
+
+
+/* Contact Us Start */
+
+h1 {
+  color: orange;
+}
+
+.title-contact {
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+hr .style1 {
+  border-top: 1px solid white;
+}
+
+#contact-us {
+  color: var(--text-color);
+  margin-top: 0rem;
+  margin-bottom: 100px;
+}
+
+#contact-us h1 {
+  margin-top: 100px;
+}
+
+/* end footer */
+
+.link-sosmed,
+.footer-line {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-top: 6px;
+  transition: margin 0.3s, color 0.3s;
+}
+
+.link-sosmed:hover {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.footer-text {
+  color: #b1d182;
+}
+
+.footer-line:hover {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.footer-location h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-location p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-copyright {
+  margin-top: 12px;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
+/* end footer */
